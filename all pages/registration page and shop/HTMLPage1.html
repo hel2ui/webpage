@@ -1,0 +1,87 @@
+﻿    <!DOCTYPE html>
+
+    <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="StyleSheet1.css" rel="stylesheet" />
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.png" alt="Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Classes</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Nutrition</a></li>
+                        <li><a href="#">Water Activities</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <div class="register">
+            <h1> Register Now!</h1>
+        </div>
+        <div class="form">
+            <form action="submit-form.php" method="POST">
+
+
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" size="5">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" size="10">
+
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" id="phone-number" name="phone-number" size="10"><br>
+                <br />
+                <input type="submit" value="Submit">
+
+                <br />
+                <label>Choose:</label>
+                <div class="radio-box">
+                    <input type="radio" id="personal" name="class-type" value="personal">
+                    <label for="personal">Personal Training</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="group" name="class-type" value="group">
+                    <label for="group">Group Classes</label>
+                </div>
+
+                <br />
+                <label>
+                    <input type="checkbox" name="nutrition-tips">
+                    I would like to receive nutrition tips
+                </label>
+
+                <br />
+
+                <label>Would you like to also register in the swimming pool?</label>
+                <div class="radio-box">
+                    <input type="radio" id="yes" name="swimming-pool" value="yes">
+                    <label for="yes">Yes</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="no" name="swimming-pool" value="no">
+                    <label for="no">No</label>
+                </div>
+                <br />
+                <button type="submit">Submit</button>
+
+
+
+
+
+
+            </form>
+        </div>
+
+
+    </body>
+    </html>

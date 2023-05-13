@@ -1,0 +1,352 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link href="StyleSheetClasses.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>Classes</title>
+
+    <style>
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #202521;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 2px solid black;
+            /* Add this line for the line under the header */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #highlightClass {
+            background-color: rgba(159, 162, 178, 50%);
+            padding: 0px 3px 0px 3px;
+            border: 0.5px solid #202521;
+            border-radius: 3px;
+            color: white;
+
+        }
+
+        .logo img {
+            height: 50px;
+            padding-right: 200px;
+        }
+
+
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            transition: 0.3s;
+        }
+
+        nav li a:hover {
+            background-color: rgba(159, 162, 178, 50%);
+            color: white;
+        }
+
+
+
+
+        .register {
+            background-color: #ccc;
+            padding: 20px 20px 20px 20px;
+            text-align: center;
+            color: black;
+        }
+
+        .register a {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: 0.3s;
+        }
+
+        .register a:hover {
+            background-color: #555;
+        }
+
+
+
+
+
+        .class {
+            display: inline-block;
+            padding: 50px 50px 50px 50px;
+            margin-right: 50px;
+            margin-left: 45px;
+            margin: 25px 50px 25px 45px auto;
+            font-size: 40px;
+            background-color: rgba(32, 37, 33, 70%);
+            border: 1px solid #202521;
+            border-radius: 5px;
+        }
+
+        body {
+            padding-left: 20px;
+            padding-top: 100px;
+            font-family: 'Segoe UI', sans;
+
+            text-align: justify;
+            color: #488d48;
+            background-color: black;
+        }
+
+        .classTypes {
+            display: block;
+            padding: 25px 35px 35px 35px;
+            background-color: rgba(32, 37, 33, 50%);
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #202521;
+            border-radius: 5px
+        }
+
+        #buttonInfo {
+            font-size: 30px;
+        }
+
+        div a {
+            text-decoration: none;
+            color: #727b72;
+            transition: 0.3s;
+        }
+
+        div a:hover {
+            background-color: rgb(159, 162, 178);
+            padding: 5px;
+            border: 0.5px solid #202521;
+            border-radius: 5px;
+            color: #212621;
+        }
+
+        #image {
+            transition: 0.3s;
+        }
+
+        #image:hover {
+            background-color: #202521;
+            padding: 0px 0px 0px;
+        }
+
+        h2 {
+            display: block;
+            padding-top: 100px;
+            text-align: center;
+        }
+
+        h1 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+
+        #outer {
+            text-align: center;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        a #footer {
+            margin: auto;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        #footer:hover {
+
+            background-color: black;
+            color: white;
+            border-color: black;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 100px;
+            font-size: 180%
+        }
+
+        #hr {
+            color: #488d48;
+        }
+
+        .gymlogo {
+            padding-left: 27px;
+        }
+
+        footer {
+
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #202521;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 2px solid black;
+            /* Add this line for the line under the header */
+        }
+
+        .header {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 8%;
+
+            padding: 60px;
+            text-align: left;
+            background: #488d48;
+            color: #fff;
+            font-size: 3px;
+            background-color: #202521;
+            padding: 20px 0;
+            border-bottom: 2px solid black;
+        }
+
+        .white {
+            color: white
+        }
+
+        .facelogo {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 8%;
+
+            padding: 60px;
+            text-align: right;
+            background: #488d48;
+            color: #fff;
+            font-size: 3px;
+            background-color: #202521;
+            padding: 20px 0;
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#" id="image"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#" id="highlightClass">Classes</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Nutrition</a></li>
+                    <li><a href="#">Water Activities</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div>
+        <a href="#glogo">
+            <img src="logo.png" alt="gym logo" style="height: 400px;width: 1200px; margin-left: 80px;"
+                class="gymlogo"></a>
+    </div>
+    <div class="main">
+        <h1 id="hr">Fitness Center</h1>
+        <p id="glogo">
+            Fit IO is a fitness center that provides a range of equipment and services for individuals to improve their
+            physical fitness and overall health.<br> At Fit IO, you can find a variety of equipment such as weight
+            machines,
+            free weights, cardio machines, and stretching areas. In addition to equipment, Fit IO offers fitness classes
+            such as yoga, Pilates, cycling, and boot camps, led by certified instructors.<br>
+
+            At Fit IO, you can also enjoy additional amenities such as saunas, steam rooms, swimming pools, and personal
+            training services. <br>Our facilities are designed to cater to individuals of all fitness levels, from
+            beginners
+            to advanced athletes, and provide a safe and supportive environment to achieve fitness goals.<br> Our team
+            of
+            experienced trainers and instructors are passionate about helping you reach your fitness goals and offer
+            personalized training plans and nutritional guidance to help you get there.<br> Come join the Fit IO
+            community
+            and start your fitness journey today!
+        </p>
+
+    </div>
+
+    <hr id="hr">
+    <br><br><br><br><br>
+
+   
+            <div class="header">
+                <a href="#logos">
+
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="80.000000pt" height="80.000000pt"
+                        viewBox="0 0 299.000000 263.000000" preserveAspectRatio="xMidYMid meet">
+
+                        <g transform="translate(0.000000,263.000000) scale(0.100000,-0.100000)" fill="#000000"
+                            stroke="none">
+                            <path d="M430 1935 l0 -685 160 0 160 0 1 288 c0 158 3 281 6 275 7 -20 346
+-18 366 1 8 8 56 92 108 185 51 94 96 167 100 163 4 -4 71 -169 148 -366 125
+-319 151 -376 171 -376 20 0 41 41 116 221 47 112 90 207 97 211 7 4 94 8 195
+8 l182 0 0 -305 0 -305 160 0 160 0 0 685 0 685 -160 0 -160 0 0 -305 0 -305
+-211 0 c-120 0 -218 -4 -229 -10 -10 -5 -44 -57 -75 -115 -38 -71 -62 -105
+-72 -103 -8 2 -70 126 -149 302 -73 164 -139 305 -145 312 -32 38 -47 19 -165
+-218 -64 -128 -121 -236 -128 -240 -6 -4 -80 -8 -163 -8 l-153 0 0 345 0 345
+-160 0 -160 0 0 -685z" />
+                            <path d="M0 1935 l0 -425 165 0 165 0 0 425 0 425 -165 0 -165 0 0 -425z" />
+                            <path d="M2670 1935 l0 -425 160 0 160 0 0 425 0 425 -160 0 -160 0 0 -425z" />
+                            <path d="M2417 1036 c-106 -30 -160 -106 -178 -251 -17 -138 -6 -524 17 -599
+35 -116 127 -176 269 -176 136 0 222 53 266 165 23 58 23 69 24 350 0 246 -3
+298 -17 345 -22 69 -65 122 -123 150 -58 28 -188 36 -258 16z m158 -126 c50
+-19 55 -51 55 -380 0 -332 -4 -361 -57 -381 -39 -15 -102 -5 -127 21 -20 20
+-21 31 -24 345 -2 281 -1 329 13 355 24 46 81 62 140 40z" />
+                            <path d="M180 530 l0 -510 90 0 90 0 0 235 0 235 95 0 95 0 0 60 0 60 -95 0
+-95 0 0 150 0 150 115 0 115 0 0 65 0 65 -205 0 -205 0 0 -510z" />
+                            <path d="M710 530 l0 -510 90 0 90 0 0 510 0 510 -90 0 -90 0 0 -510z" />
+                            <path d="M990 975 l0 -65 80 0 80 0 0 -445 0 -445 90 0 90 0 0 445 0 445 80 0
+80 0 0 65 0 65 -250 0 -250 0 0 -65z" />
+                            <path d="M1900 530 l0 -510 90 0 90 0 0 510 0 510 -90 0 -90 0 0 -510z" />
+                        </g>
+                    </svg></div>
+            </a>
+        
+        
+            <div class="facelogo">
+                <a href="#logos">
+                    <svg height="100%"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                        version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path
+                            d="M255.022,511.998l0.229,0.001l-0.079,0l-0.15,-0.001Zm1.806,0.001l-0.079,0l0.229,-0.001l-0.15,0.001Zm-2.588,-0.005l0.247,0.001l-0.142,0l-0.105,-0.001Zm3.415,0.001l-0.142,0l0.247,-0.001l-0.105,0.001Zm-4.169,-0.007l0.165,0.001l-0.132,-0.001l-0.033,0Zm4.995,0l-0.132,0.001l0.165,-0.001l-0.033,0Zm0.826,-0.009l-0.058,0.001l0.223,-0.003l-0.165,0.002Zm-6.779,-0.002l0.223,0.003l-0.058,-0.001l-0.165,-0.002Zm7.604,-0.01l-0.135,0.002l0.275,-0.004l-0.14,0.002Zm-8.404,-0.002l0.275,0.004l-0.135,-0.002l-0.14,-0.002Zm9.228,-0.012l-0.182,0.003l0.254,-0.005l-0.072,0.002Zm-9.984,-0.002l0.254,0.005l-0.182,-0.003l-0.072,-0.002Zm-0.937,-0.019l0.225,0.005l-0.04,-0.001l-0.185,-0.004Zm11.745,0.004l-0.04,0.001l0.225,-0.005l-0.185,0.004Zm-12.567,-0.025l0.309,0.008l-0.125,-0.003l-0.184,-0.005Zm13.39,0.005l-0.125,0.003l0.309,-0.008l-0.184,0.005Zm0.823,-0.022l-0.201,0.006l0.316,-0.009l-0.115,0.003Zm-14.967,-0.003l0.316,0.009l-0.201,-0.006l-0.115,-0.003Zm-0.72,-0.022l0.225,0.007l-0.212,-0.007l-0.194,-0.006l0.181,0.006Zm16.509,0l-0.212,0.007l0.225,-0.007l0.181,-0.006l-0.194,0.006Zm0.821,-0.027l-0.112,0.004l0.345,-0.012l-0.233,0.008Zm-18.371,-0.008l0.345,0.012l-0.112,-0.004l-0.233,-0.008Zm-0.749,-0.028l0.362,0.013l-0.201,-0.007l-0.161,-0.006Zm19.941,0.006l-0.201,0.007l0.362,-0.013l-0.161,0.006Zm-20.676,-0.036l0.354,0.015l-0.277,-0.011l-0.077,-0.004Zm21.495,0.004l-0.277,0.011l0.354,-0.015l-0.077,0.004Zm-22.525,-0.049l0.38,0.017l-0.093,-0.003l-0.287,-0.014Zm23.345,0.014l-0.093,0.003l0.38,-0.017l-0.287,0.014Zm-24.084,-0.048l0.394,0.018l-0.186,-0.008l-0.208,-0.01Zm24.902,0.01l-0.186,0.008l0.394,-0.018l-0.208,0.01Zm-25.63,-0.047l0.397,0.02l-0.279,-0.013l-0.118,-0.007Zm26.448,0.007l-0.279,0.013l0.397,-0.02l-0.118,0.007Zm0.818,-0.043l-0.362,0.019l0.321,-0.017l0.378,-0.021l-0.337,0.019Zm-27.925,0.002l0.321,0.017l-0.362,-0.019l-0.337,-0.019l0.378,0.021Zm28.741,-0.048l-0.16,0.009l0.406,-0.023l-0.246,0.014Zm-29.844,-0.014l0.406,0.023l-0.16,-0.009l-0.246,-0.014Zm-0.722,-0.043l0.405,0.024l-0.253,-0.014l-0.152,-0.01Zm31.382,0.01l-0.253,0.014l0.405,-0.024l-0.152,0.01Zm-32.071,-0.053l0.365,0.023l-0.34,-0.021l-0.342,-0.022l0.317,0.02Zm32.887,0.002l-0.34,0.021l0.365,-0.023l0.317,-0.02l-0.342,0.022Zm0.814,-0.053l-0.122,0.008l0.387,-0.026l-0.265,0.018Zm-34.755,-0.018l0.387,0.026l-0.122,-0.008l-0.265,-0.018Zm-0.721,-0.05l0.38,0.027l-0.208,-0.014l-0.172,-0.013Zm36.29,0.013l-0.208,0.014l0.38,-0.027l-0.172,0.013Zm-37.009,-0.064l0.349,0.025l-0.271,-0.019l-0.078,-0.006Zm37.822,0.006l-0.271,0.019l0.349,-0.025l-0.078,0.006Zm-38.789,-0.079l0.306,0.023l-0.074,-0.005l-0.232,-0.018Zm39.602,0.018l-0.074,0.005l0.306,-0.023l-0.232,0.018Zm0.811,-0.063l-0.146,0.011l0.311,-0.025l-0.165,0.014Zm-41.157,-0.014l0.311,0.025l-0.146,-0.011l-0.165,-0.014Zm-0.725,-0.059l0.264,0.022l-0.186,-0.015l-0.078,-0.007Zm42.694,0.007l-0.186,0.015l0.264,-0.022l-0.078,0.007Zm-43.492,-0.074l0.079,0.007l-0.013,-0.001l-0.066,-0.006Zm44.302,0.006l-0.013,0.001l0.079,-0.007l-0.066,0.006Zm0.81,-0.071l-0.072,0.006l0.181,-0.016l-0.109,0.01Zm-45.965,-0.01l0.181,0.016l-0.072,-0.006l-0.109,-0.01Zm-0.75,-0.068l0.135,0.013l-0.084,-0.008l-0.051,-0.005Zm47.523,0.005l-0.084,0.008l0.135,-0.013l-0.051,0.005Zm-63.736,-2.025c-122.319,-19.226 -216,-125.203 -216,-252.887c0,-141.29 114.71,-256 256,-256c141.29,0 256,114.71 256,256c0,127.684 -93.681,233.661 -216,252.887l0,-178.887l59.65,0l11.35,-74l-71,0l0,-48.021c0,-20.245 9.918,-39.979 41.719,-39.979l32.281,0l0,-63c0,0 -29.296,-5 -57.305,-5c-58.476,0 -96.695,35.44 -96.695,99.6l0,56.4l-65,0l0,74l65,0l0,178.887Z" />
+                    </svg>
+                </a>
+            </div>
+       
+    
+</body>
+
+</html>

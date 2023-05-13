@@ -1,0 +1,333 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="StyleSheetClasses.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>Classes</title>
+
+    <style>
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #202521;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 2px solid black; /* Add this line for the line under the header */
+            
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        #highlightClass {
+            background-color: rgba(159, 162, 178, 50%);
+            padding: 0px 3px 0px 3px;
+            border: 0.5px solid #202521;
+            border-radius: 3px;
+            color: white;
+            
+        }
+
+        .logo img {
+            height: 50px;
+            padding-right:200px;
+        }
+        nav{
+            
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+            nav li a {
+                color: #fff;
+                text-decoration: none;
+                display: block;
+                transition: 0.3s;
+            }
+
+                nav li a:hover {
+                    background-color: rgba(159, 162, 178, 50%);
+                    color:white;
+                    
+                    
+                }
+
+
+
+
+        .register {
+            background-color: #ccc;
+            padding: 20px 20px 20px 20px;
+            text-align: center;
+            color: black;
+        }
+
+            .register a {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 3px;
+                transition: 0.3s;
+            }
+
+                .register a:hover {
+                    background-color: #555;
+                }
+
+
+
+
+
+        .class {
+            display: inline-block;
+            padding: 50px 50px 50px 50px;
+            margin-right: 50px;
+            margin-left: 45px;
+            margin: 25px 50px 25px 45px auto;
+            font-size: 40px;
+            background-color: rgba(32,37,33,70%);
+            border: 1px solid #202521;
+            border-radius: 5px;
+        }
+        body {
+            padding-left: 20px;
+            padding-top: 100px;
+            font-family: 'Segoe UI',sans;
+            
+            text-align: justify;
+            color: #488d48;
+            background-color: black;
+        }
+
+        .classTypes {
+            display: block;
+            padding: 25px 35px 35px 35px;
+            background-color: rgba(32,37,33,50%);
+            width:1000px;
+            margin-left:  auto;
+            margin-right:auto;
+            border: 1px solid #202521;
+            border-radius: 5px
+        }
+        #buttonInfo{
+            font-size:30px;
+        }
+        div a {
+            text-decoration: none;
+            color: #727b72;
+            transition: 0.3s;
+        }
+            div a:hover {
+                background-color: rgb(159, 162, 178);
+                padding: 5px;
+                border: 0.5px solid #202521;
+                border-radius: 5px;
+                color:#212621;
+            }
+        #image {
+            transition: 0.3s;
+        }
+        #image:hover {
+            background-color:  #202521;
+            padding: 0px 0px 0px;
+        } 
+       h2{
+           display:block;     
+           padding-top:100px;
+           text-align:center;
+       }
+       h1 {
+           padding-top: 30px;
+           padding-bottom: 30px;
+           text-align: center;
+       }
+       #outer{
+           text-align:center;
+       }
+       html {
+            scroll-behavior: smooth;
+       }
+        a #footer {
+            margin: auto;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        #footer:hover {
+            
+            background-color: black;
+            color:white;
+            border-color:black;
+        }
+        .footer {
+            text-align: center;
+            padding:100px;
+            font-size:180%
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#" id="image"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#" id="highlightClass">Classes</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Nutrition</a></li>
+                    <li><a href="#">Water Activities</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <h1> Classes </h1>
+    <div id="outer">
+        <div class="class">
+            <img src="Beginner.png" alt="BeginnerFitness">
+            <br />
+            <p>Fitness for Beginners</p>
+            <a href="#FFB" id="buttonInfo">> More Information</a>
+        </div>
+
+        <div class="class">
+            <img src="Pilates.png" alt="Pilates">
+            <br />
+            <p>Pilates Classes</p>
+            <a href="#Pilate" id="buttonInfo">> More Information</a>
+        </div>
+
+        <div class="class">
+            <img src="Cardio.png" alt="Cardio">
+            <br />
+            <p>Cardio Classes</p>
+            <a href="#Cardio" id="buttonInfo">> More Information</a>
+        </div>
+    </div>
+    <!--<h1>Personal Trainers</h1>
+        <div class="class">
+            <img src="adam.png" alt="Trainer1">
+            <br />
+
+            <a href="#">Trainer1</a>
+        </div>
+        <div class="class">
+            <img src="mohammed.png" alt="Trainer2">
+            <br />
+
+            <a href="#">Trainer2</a>
+        </div>-->
+
+
+        <h2 id="FFB">Fitness for Beginners</h2>
+        <div class="classTypes">
+            Regular exercise has been shown to improve your health significantly.
+            <br />
+            Its primary benefits include helping you achieve and maintain a healthy body weight and muscle mass and reducing your risk for chronic diseases.
+            <br />
+            Additionally, research has shown that exercise can lift your mood, boost your mental health and help you sleep better.
+            <br />
+            And that’s not all. It can also help you maintain good energy levels.
+            <br />
+            In short, exercise is powerful and can help improve your life.
+            <br />
+            <br />
+
+            There are various types of exercise, including:
+
+            <ul>
+                <li><strong>High-intensity interval training (HIIT).</strong> This type of exercise includes repetitions of short bursts of high-intensity exercise followed by low-intensity exercises or rest periods.</li>
+                <li><strong>Calisthenics.</strong> These moves are usually performed without gym equipment using large muscle groups. They’re done at a medium aerobic pace. Examples include lunges, situps, pushups, and pullups.</li>
+                <li><strong>Strength.</strong> These exercises help increase muscle power and strength. Examples include resistance training, plyometrics, weightlifting, and sprinting.</li>
+                <li><strong>Aerobic.</strong> The core of any fitness program should include some form of continuous movement. Examples include swimming, running, and dancing.</li>
+                <li><strong>Boot camps.</strong> These are timed-based, high-intensity circuits that combine aerobic and resistance exercises.</li>
+                <li><strong>Balance or stability.</strong> These exercises are designed to strengthen muscles and improves body coordination. Examples include Pilates, tai chi poses, and core-strengthening exercises.</li>
+                <li><strong>Flexibility.</strong> These types of exercises help muscle recovery, maintain range of motion, and prevent injuries. Examples include yoga or individual muscle-stretch movements.</li>
+            </ul>
+
+            <br />
+            <a href="#">> Click here to register </a>
+        </div>
+
+        <h2 id="Pilate">Pilates</h2>
+        <div class="classTypes">
+            If you’ve been looking for a new workout routine that can give you a good balance of flexibility, strength, muscle tone and help for
+            a few aches and pains, Pilates may be the answer. It might look a bit intimidating at first, but it’s much easier to get into — and,
+            depending on what you do, less expensive — than you might assume.
+            <br /><br />
+
+            “As human beings, we are creatures of habit,” Bar notes. “We walk a certain way, we take the stairs a certain way, we stand a certain way
+            and we sit at our desk a certain way. So, our muscles get imbalanced because of overuse. What Pilates does is help to counteract that.”
+            <br /><br />
+            Some of the principles that guide the Pilates method include concentration on each movement, use of the abdomen and low back muscles,
+            flowing, precise movement patterns and controlled breathing. Depending on the exercise, Pilates routines can be performed on specially
+            designed apparatuses, including a bed-like structure called a reformer, or more simply on a mat or blanket.
+
+            <br /><br />
+            Some of the principles that guide the Pilates method include concentration on each movement, use of the abdomen and low back muscles,
+            flowing, precise movement patterns and controlled breathing. Depending on the exercise, Pilates routines can be performed on specially
+            designed apparatuses, including a bed-like structure called a reformer, or more simply on a mat or blanket.
+            <br /><br />
+            Pilates is a form of strength training, but it doesn’t look like some of the other strength training exercises you might be familiar with.
+            Pilates focuses more on improving muscle tone than building muscles, but the result is similar: greater stability and endurance. Pilates
+            isn’t going to bulk you up — if anything, it’s designed to cultivate a longer, leaner look. Still, it can lay a strong physical foundation
+            for muscle-building activities — and may even reduce your likelihood of injury. More on that later.
+            <br /><br />
+            <a href="#">> Click here to register </a>
+        </div>
+
+
+        <h2 id="Cardio">Cardio</h2>
+        <div class="classTypes">
+            Cardio exercise, which is sometimes referred to as aerobic exercise, is any rhythmic activity that raises your heart rate into your target
+            heart rate zone. This is the zone where you burn the most fat and calories.
+            <br /><br />
+            There are very few activities you can do for a short period of time that have all of the physical and mental health benefits that cardio
+            exercise offers. Some of the known benefits of cardio include:
+            <ul>
+                <li>Burns fat and calories, making it easier to lose weight</li>
+                <li>Enhances sleep quality, especially if the exercise is moderate to vigorous in intensity</li>
+                <li>Expands lung capacity, or the amount of air that your lungs can hold</li>
+            </ul>
+            <br />
+            The answer to how often to do cardio workouts depends on a number of factors. Among them are your fitness level, schedule, and goals.
+
+            If you are new to exercise, want to be healthier, don't have a lot of free time, and aren't worried about losing weight, exercising a little
+            bit every day can do you some good. If you have been exercising regularly for years, are used to hitting the gym 60 minutes at a time, and
+            are more focused on building muscle than burning fat, cardio 3 to 4 times a week is probably enough.
+            <br /><br />
+            When thinking about frequency, it's important to consider intensity as well. Light or moderate-intensity cardio workouts can usually be performed
+            every day. But if you do high-intensity training, you'll need more rest days in between your workouts. Mixing the two helps you work different
+            energy systems and also keeps you from burning out.
+            <br /><br />
+            <a href="#">> Click here to register </a>
+        </div>
+
+    
+        
+        <div class="footer">
+            <a id="footer" href="#">Back to top</a>
+        </div>
+    </body>
+    </html>

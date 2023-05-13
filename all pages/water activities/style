@@ -1,0 +1,203 @@
+<style>
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #202521;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 2px solid black;
+            /* Add this line for the line under the header */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #highlightClass {
+            background-color: rgba(159, 162, 178, 50%);
+            padding: 0px 3px 0px 3px;
+            border: 0.5px solid #202521;
+            border-radius: 3px;
+            color: white;
+
+        }
+
+        .logo img {
+            height: 50px;
+            padding-right: 200px;
+        }
+
+        nav {}
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            transition: 0.3s;
+        }
+
+        nav li a:hover {
+            background-color: rgba(159, 162, 178, 50%);
+            color: white;
+        }
+
+
+
+
+        .register {
+            background-color: #ccc;
+            padding: 20px 20px 20px 20px;
+            text-align: center;
+            color: black;
+        }
+
+        .register a {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: 0.3s;
+        }
+
+        .register a:hover {
+            background-color: #555;
+        }
+
+
+
+
+
+        .class {
+            display: inline-block;
+            padding: 50px 50px 50px 50px;
+            margin-right: 50px;
+            margin-left: 45px;
+            margin: 25px 50px 25px 45px auto;
+            font-size: 40px;
+            background-color: rgba(32, 37, 33, 70%);
+            border: 1px solid #202521;
+            border-radius: 5px;
+        }
+
+        body {
+            padding-left: 20px;
+            padding-top: 100px;
+            font-family: 'Segoe UI', sans;
+
+            text-align: justify;
+            color: #488d48;
+            background-color: black;
+        }
+
+        .classTypes {
+            display: block;
+            padding: 25px 35px 35px 35px;
+            background-color: rgba(32, 37, 33, 50%);
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #202521;
+            border-radius: 5px
+        }
+
+        #buttonInfo {
+            font-size: 30px;
+        }
+
+        div a {
+            text-decoration: none;
+            color: #727b72;
+            transition: 0.3s;
+        }
+
+        div a:hover {
+            background-color: rgb(159, 162, 178);
+            padding: 5px;
+            border: 0.5px solid #202521;
+            border-radius: 5px;
+            color: #212621;
+        }
+
+        #image {
+            transition: 0.3s;
+        }
+
+        #image:hover {
+            background-color: #202521;
+            padding: 0px 0px 0px;
+        }
+
+        h2 {
+            display: block;
+            padding-top: 100px;
+            text-align: center;
+        }
+
+        h1 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+
+        #outer {
+            text-align: center;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        a #footer {
+            margin: auto;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        #footer:hover {
+
+            background-color: black;
+            color: white;
+            border-color: black;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 100px;
+            font-size: 180%
+        }
+        #hr{
+            color: #488d48;
+        }
+        .gymlogo{
+padding-left: 27px;
+        }
+        footer {
+            
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #202521;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 2px solid black;
+            /* Add this line for the line under the header */
+        }
+    </style>
